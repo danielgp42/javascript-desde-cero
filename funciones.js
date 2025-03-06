@@ -40,11 +40,16 @@ let ciudad="ciudad de mexico";
 console.log("el se llama" + nombre + "tiene" + edad + "años y vive en" + ciudad);
 console.log (`el se llama ${nombre} tiene ${edad} años y vive en ${ciudad}`);
 
-let usuario = prompt("¿cual es tu nombre?");
+let usuario = prompt("¿cual es tu nombre?"); //los datos se guardan en cadenas 
 let gatos = prompt("¿cuantos gatos tienes?");
 let perros = prompt("¿cuantos perros tienes?");
+let total2= parseInt(gatos) + parseInt(perros); //convertir string a numeros
 
-console.log(` ${usuario} tienes ${gatos} y ${perros} perros.`);
+// Vemos los datos en consola
+console.log(` ${usuario} tiene ${gatos} gatos y ${perros} perros.`);
 
-alert(`${usuario} tienes ${gatos} y ${perros} perros.`);
-document.write(`${usuario} tienes ${gatos} y ${perros} perros.`);
+// Vemos los datos en pop up
+alert(`${usuario} tiene ${gatos} gatos y ${perros} perros, en total tiene ${total2} mascotas.`);
+
+// Vemos los datos en la pagina
+document.write(`${usuario} tiene ${gatos} gatos y ${perros} perros. En total tiene ${total2} mascotas.`);

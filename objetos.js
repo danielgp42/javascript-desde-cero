@@ -7,4 +7,5 @@ const libro={
     editorial: "Crown Publishing group"
 }
 //Pares de clave:valor
-console.log(libro.editorial);
+console.log(libro.editorial);//Imprimir una parte del objeto
+

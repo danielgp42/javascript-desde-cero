@@ -7,6 +7,7 @@ var nombre= "victor";
 
 console.log(nombre);
 // let no permite declarar la varible dos veces
+// let tiene un scope de bloque
 let apellido ="Gutierrez";
 
 
