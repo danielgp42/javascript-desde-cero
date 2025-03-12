@@ -53,3 +53,27 @@ alert(`${usuario} tiene ${gatos} gatos y ${perros} perros, en total tiene ${tota
 
 // Vemos los datos en la pagina
 document.write(`${usuario} tiene ${gatos} gatos y ${perros} perros. En total tiene ${total2} mascotas.`);
+
+
+//Ejercicios de clase
+function Farenheit(){
+    let conversion =centigrados+32;
+    console.log('El area de la figura es : ${converison}');
+    return conversion
+}
+function Parimpar(){
+    let num = parseInt(prompt('Ingresa un numero'));
+    if (numero %2 == 0){
+        return "par";
+    }else {
+        return "impar"
+    }
+    return console.log(`El numero ${num} es ${Parimpar(num)}`);
+}
+
+function area (radio){
+    const pi=3.1416;
+    let total = pi* Math.pow(radio,2);
+    console.log ('El area del circulo es:')
+
+}

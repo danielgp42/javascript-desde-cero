@@ -1,4 +1,4 @@
-document.getElementById('comentario').addEventListener('submit', function(event) {
+document.getElementById('formulario').addEventListener('submit', function(event) {
     event.preventDefault(); //evita que se recargue la pagina
 
     const comentariotexto = document.getElementById('comentariotexto').value;
