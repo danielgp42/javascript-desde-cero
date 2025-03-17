@@ -15,7 +15,7 @@ console.log(librosLeidos); // Imprimimos el arreglo
 
 function LibrosLeidos(){
     for(let i = 0; i< librosLeidos.length; i++){
-        console.log(librosLeidos[i]);
+        console.log(librosLeidos);
     }
 }
 
